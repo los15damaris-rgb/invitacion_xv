@@ -115,7 +115,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const p2 = i2.value.trim();
         
         // Mensaje con el número solicitado
-        const msj = `¡Damaris Emely Farias Dumes! Con mucha alegría, ${nombreFamiliaVal} confirmamos nuestra asistencia a tus XV Años.%0A%0A✨ *Asistirán:* ${p1} y ${p2}.%0A%0A¡Nos vemos pronto!`;
+        const msj = `¡Hola! Damaris Con mucha alegría, ${nombreFamiliaVal} confirmamos nuestra asistencia a tus XV Años.%0A%0A✨ *Asistirán:* ${p1} y ${p2}.%0A%0A¡Nos vemos pronto!`;
         
         showToast('Preparando mensaje...');
         setTimeout(() => {
