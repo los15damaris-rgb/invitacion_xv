@@ -14,6 +14,12 @@ document.getElementById('btn-abrir').addEventListener('click', function() {
     const contenido = document.getElementById('contenido-principal');
     const contMariposas = document.getElementById('contenedor-mariposas');
     
+    // Capturamos el audio y lo reproducimos al instante del clic
+    const musica = document.getElementById('musica-fondo');
+    if(musica) {
+        musica.play().catch(e => console.log("Audio en espera de interacción", e));
+    }
+    
     btn.classList.add('presionado');
     
     setTimeout(() => {
